@@ -1,3 +1,4 @@
+'use strict';
 const uuid = require('uuid');
 
 // this module provides volatile storage, using a `ShoppingList`
@@ -94,4 +95,4 @@ function createRecipes() {
 module.exports = {
   ShoppingList: createShoppingList(),
   Recipes: createRecipes()
-}
+};
